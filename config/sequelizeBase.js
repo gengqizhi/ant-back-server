@@ -8,7 +8,7 @@
 /* sequelize基础配置文件 */
 const Sequelize = require('sequelize');
 // 参数依次为：要导入的数据库名，账号，密码
-const sequelize = new Sequelize('common', 'root', '123456', {
+const sequelize = new Sequelize('familySchool', 'chase', 'redhat', {
     host: '127.0.0.1',
     dialect: 'mysql'
 });
